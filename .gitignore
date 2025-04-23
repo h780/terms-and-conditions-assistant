@@ -1,6 +1,7 @@
 # Environment variables
 .env
 .env.*
+!.env.example
 
 # Python
 __pycache__/
@@ -50,4 +51,7 @@ logs/
 
 # Temporary files
 tmp/
-temp/ 
+temp/
+
+# Project specific
+report.md 
