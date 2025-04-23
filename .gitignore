@@ -54,4 +54,7 @@ tmp/
 temp/
 
 # Project specific
-report.md 
+report.md
+
+# Gradio
+.gradio/ 
