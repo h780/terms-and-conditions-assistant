@@ -1,0 +1,19 @@
+research_task:
+  description: >
+    Find the most recent terms and conditions document for {entity_name}.
+    Use SerperDev to search for the official terms and conditions page.
+    Use ScrapeWebsite to extract the content from the most relevant result.
+    Focus on finding the official document from the company's website.
+  expected_output: >
+    The terms and conditions document for {entity_name} with its source URL.
+  agent: researcher
+
+reporting_task:
+  description: >
+    Create a concise summary of the terms and conditions for {entity_name}.
+    Focus on the most important aspects: user rights, obligations, and key limitations.
+    Use clear, simple language to explain the main points.
+  expected_output: >
+    A brief, well-organized summary of the key points in the terms and conditions.
+    Include the most important rights and obligations.
+  agent: reporting_analyst
